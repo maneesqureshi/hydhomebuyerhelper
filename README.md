@@ -2,7 +2,7 @@
 
 Claude Skills that turn a Hyderabad/Telangana property due-diligence checklist into an interactive verification session: describe the property, upload documents as you collect them (RERA certificate, sale agreement, cost sheet, encumbrance certificate, layout approval, brochure, and so on), and Claude cross-checks each one against the full checklist — tracking every item as **Verified**, **Flagged**, or **Open**, and refining that tracker as more documents arrive.
 
-These were built out of a real Hyderabad property search and are shared as-is in case they're useful to other buyers navigating the same market.
+Due diligence for Hyderabad/Telangana real estate is scattered across a dozen portals — RERA, Dharani, GHMC, HMDA, the sub-registrar's office — with no single list of what to check and where to check it. These checklists and skills exist to close that gap.
 
 > **⚠️ Disclaimer:** This is a weekend hobby project, not a professional or commercial product. It's provided for informational/educational purposes only, with **no warranty of any kind**, and it is **not** legal, financial, engineering, surveying, or investment advice. It does not replace an independent lawyer, structural engineer/surveyor, or chartered accountant, and nothing it outputs is a legal or professional clearance of any property or document. Use entirely at your own risk — see [Disclaimer](#disclaimer) below for the full terms.
 
