@@ -9,6 +9,7 @@ These were built out of a real Hyderabad property search and are shared as-is in
 | Skill | Covers | Sections | Items |
 |---|---|---|---|
 | [`apartment-due-diligence-verifier`](skills/apartment-due-diligence-verifier/SKILL.md) | Apartments / flats in a tower or phase | 16 | 114 |
+| [`villa-due-diligence-verifier`](skills/villa-due-diligence-verifier/SKILL.md) | Villas / independent houses in a gated community or plotted layout | 15 | 108 |
 | [`land-plot-due-diligence-verifier`](skills/land-plot-due-diligence-verifier/SKILL.md) | Land parcels and residential plots (individual resale or organized plotted layouts) | 13 | 72 |
 
 Each checklist item carries a **Verify via** annotation naming exactly where to get supporting proof: the builder/seller, RERA (rera.telangana.gov.in), a named Telangana government portal or office (Dharani, GHMC/HMDA, TS-bPASS, Sub-Registrar/IGRS, TSPCB, HMWSSB, TSSPDCL, and others), your lender, public court/company records, an independent third-party professional (lawyer, structural engineer, surveyor, CA), or a personal site visit.
@@ -39,7 +40,7 @@ Once loaded, start a conversation naming the property you're evaluating and begi
 
 ## Companion checklists
 
-The full checklists these skills are built from — including a matching villa/independent-house checklist not (yet) converted into a skill — exist as standalone, print-ready reference documents. They cover the same ground in a format suited to printing and manual use rather than conversational, document-by-document verification.
+The full checklists these skills are built from also exist as standalone, print-ready reference documents (apartment, villa, and land/plot), covering the same ground in a format suited to printing and manual use rather than conversational, document-by-document verification.
 
 ## License
 
