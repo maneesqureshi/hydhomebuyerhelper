@@ -14,6 +14,7 @@ Due diligence for Hyderabad/Telangana real estate is scattered across a dozen po
 | [`villa-due-diligence-verifier`](skills/villa-due-diligence-verifier/SKILL.md) | Villas / independent houses in a gated community or plotted layout | 15 | 108 |
 | [`land-plot-due-diligence-verifier`](skills/land-plot-due-diligence-verifier/SKILL.md) | Land parcels and residential plots (individual resale or organized plotted layouts) | 13 | 72 |
 | [`apartment-project-comparator`](skills/apartment-project-comparator/SKILL.md) | Side-by-side comparison of two or more specific apartment projects (e.g. the same BHK in nearby micro-markets) | 16 (embedded) | 114 (embedded) |
+| [`villa-project-comparator`](skills/villa-project-comparator/SKILL.md) | Side-by-side comparison of two or more specific villa/independent-house projects (e.g. the same configuration in nearby micro-markets) | 15 (embedded) | 108 (embedded) |
 
 Each checklist item carries a **Verify via** annotation naming exactly where to get supporting proof: the builder/seller, RERA (rera.telangana.gov.in), a named Telangana government portal or office (Dharani, GHMC/HMDA, TS-bPASS, Sub-Registrar/IGRS, TSPCB, HMWSSB, TSSPDCL, and others), your lender, public court/company records, an independent third-party professional (lawyer, structural engineer, surveyor, CA), or a personal site visit.
 
@@ -26,7 +27,7 @@ The three single-project due-diligence skills follow the same model:
 3. **Iterative refinement** — as you upload more documents, Claude updates the tracker incrementally, calls out any conflicts between documents instead of silently picking one, and flags items that can only ever be closed by a physical site visit.
 4. **A final report** — on request, Claude produces a structured due-diligence report: a headline verdict, a section-by-section walkthrough, and a close-out list of what's still needed.
 
-`apartment-project-comparator` works differently: instead of requiring documents before saying anything, it starts from whatever you already know about each project (a brochure, a price list, a sales pitch) and uses a four-state tracker per project — Confirmed / Estimated / Unknown / Flagged — so it can produce a useful comparison early and get more rigorous only as real documents arrive for a given project. It embeds the same apartment checklist for deepening any one project to full due-diligence rigor.
+`apartment-project-comparator` and `villa-project-comparator` work differently: instead of requiring documents before saying anything, they start from whatever you already know about each project (a brochure, a price list, a sales pitch) and use a four-state tracker per project — Confirmed / Estimated / Unknown / Flagged — so they can produce a useful comparison early and get more rigorous only as real documents arrive for a given project. Each embeds its matching checklist (apartment or villa) for deepening any one project to full due-diligence rigor.
 
 ## Using these skills
 
