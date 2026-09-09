@@ -38,6 +38,16 @@ These are [Claude Skills](https://docs.claude.com/en/docs/claude-code/skills) �
 
 Once loaded, start a conversation naming the property you're evaluating and begin sharing documents — the skill takes it from there.
 
+### Using the project comparators
+
+`apartment-project-comparator` and `villa-project-comparator` are started differently — you don't need any documents on hand to begin. Just name the two (or more) projects and configurations, e.g.:
+
+> Compare a 3BHK in Godrej Madison Avenue, Kokapet vs. a 3BHK in Rajapushpa Pristinia, Kokapet.
+
+The skill will ask what you already know about each (price, size, possession timeline, amenities), whether proximity to a specific reference point (office, school, family) matters to you, and what you care about most — then build a first-pass comparison from there, tagging every figure ✅ Confirmed, 🟡 Estimated, ⬜ Unknown, or ⚠️ Flagged so you always know how much to trust it.
+
+That first pass leans on public listing sites, and in testing this project's two comparators against real projects, those sites turned out to disagree with each other more often than not — different developer names, unit counts, even possession dates attached to the *same* RERA registration number in one case. The comparators are built to surface exactly that kind of contradiction rather than quietly pick a number, but they can't resolve it for you: TS-RERA's project search (rerait.telangana.gov.in) is CAPTCHA-gated, so no automated check — Claude included — can complete it. When it matters, the skill will hand you the exact RERA number, project name, and every promoter-name variant it found so you can run that search yourself in under a minute; treat what you find there (or any document you upload) as the real source of truth, and treat everything before that as a starting point for comparison, not a verified fact.
+
 ## Disclaimer
 
 This project was built over a weekend as a personal, hobby exercise — a byproduct of my own Hyderabad property search — and is shared publicly in case it helps other buyers. It is **not**:
