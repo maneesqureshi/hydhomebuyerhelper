@@ -17,7 +17,20 @@ Gather, for each project:
 2. **A reference point, if proximity matters to the buyer** — "within 10km" or "similar area" only means something relative to somewhere. If they care about commute to a workplace, a school, family, or a specific IT corridor, get that reference point explicitly. If they don't have one and just want the projects compared on their own merits, that's fine too — don't invent a commute narrative they didn't ask for.
 3. **Whatever they already know** about each project — price, plot size, built-up area, floors, possession timeline, amenities, brochure claims — even if it's informal or unconfirmed.
 4. **What matters most to them**, if they're willing to say — price, plot size, resale/rental potential, builder pedigree, ready-to-move vs under-construction, a specific amenity, density of the layout, and so on. Optional, but it sharpens the final trade-off summary considerably.
-5. **Whether to attempt live verification** (TS-RERA project/promoter search, MCA company search) if you have live web access in this session. Offer it explicitly if you do.
+5. **Whether to run a live-verification packet** — see "Sourcing discipline" below; you can prepare the search terms, but the buyer has to run the actual TS-RERA/MCA search themselves.
+
+## Sourcing discipline
+
+Not all sources deserve equal trust, and getting this right matters more than any single comparison dimension. In order:
+
+1. **Buyer-uploaded documents and buyer-reported live checks** — a RERA certificate, cost sheet, or sale agreement the buyer shares, or a live TS-RERA/MCA portal result the buyer ran themselves and reported back — are the only things that earn ✅ Confirmed.
+2. **The developer's own official website** — more reliable than any listing aggregator, and the tie-breaker of first resort when aggregators disagree. Still 🟡 Estimated (it's marketing, not a filed document), but trust it over a third-party listing.
+3. **A single well-established listing aggregator, cited by name** (e.g. "per Squareyards" or "per 99acres") — useful for a first pass, but never silently blend numbers pulled from multiple aggregators into one figure. If two aggregators disagree, show both and say so — don't average, and don't pick one without explaining why.
+4. **A listing aggregator's *derived* price-per-sqft or price-per-sq.yard figure** — treat with real suspicion. Recompute it from the aggregator's own stated total price and area where you can; if your recomputed figure doesn't match what the site displays, say so and mark the figure ⬜ Unknown rather than repeating a number that doesn't reconcile.
+
+**You cannot complete TS-RERA's live project search yourself.** rerait.telangana.gov.in gates every search behind a text CAPTCHA, and solving CAPTCHAs isn't something you do, on request or otherwise. So "live verification" means preparing a ready-to-use search packet for the buyer — the RERA number, the project name, and every promoter/developer/SPV name variant you've found across sources — so they can run the actual search themselves (it takes under a minute per project) and report back what it shows. Treat what they report as ✅ Confirmed. Never tell the buyer you checked RERA live yourself, and never let a comparison imply it includes a live regulatory check unless the buyer actually ran one.
+
+**A single RERA number tied to contradictory listings — different promoter/SPV names, different unit counts, different possession statuses across sources — is not something to resolve by picking whichever source looks more current or more official.** Surface it as a ⚠️ Flagged item immediately, call it out on its own if it's central to the comparison, and make a buyer-run RERA search for that exact number the #1 item in Open Items, ahead of everything else.
 
 ## Per-project Findings Tracker
 
@@ -298,7 +311,7 @@ Any one of these on a project is a strong signal to treat it as the weaker optio
 
 - Never compare a Confirmed figure for one project against an Estimated figure for another as if they're equally reliable — flag the asymmetry explicitly, every time.
 - Always separate plot-area pricing from built-up-area pricing. A villa's plot is not fungible with its built-up sqft the way an apartment's carpet area drives everything — a smaller plot with a larger built-up area is a genuinely different product from a larger plot with a smaller footprint, not just a cheaper or pricier version of the same thing.
-- Treat a mismatch between listing sources — different developer/SPV names, different unit counts, different possession dates — for what is nominally the *same* RERA number as a serious flag, not a rounding error. Two listings citing one RERA number but describing what sound like different projects (different scale, different possession status) should be surfaced prominently and resolved via a live RERA portal check before anything else in the comparison is trusted.
+- Treat a mismatch between listing sources — different developer/SPV names, different unit counts, different possession dates — for what is nominally the *same* RERA number as a serious flag, not a rounding error. Two listings citing one RERA number but describing what sound like different projects (different scale, different possession status) should be surfaced prominently and routed through a buyer-run live RERA search (see "Sourcing discipline") before anything else in the comparison is trusted.
 - A red flag on any project stays visible in every summary involving that project — never let it get buried under a table row a buyer skims past.
 - This is a decision-support and screening aid, not investment, financial, or legal advice, and not a substitute for independent professional due diligence (property lawyer, structural engineer, chartered accountant) on whichever project the buyer moves forward with.
 - Never invent a commute time, price benchmark, or appreciation trend the buyer or a document hasn't actually provided. Mark it Unknown rather than estimating from general knowledge — if the buyer explicitly asks for a rough general-market estimate, provide one only when clearly labeled as a rough estimate, not a fact.

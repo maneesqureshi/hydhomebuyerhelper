@@ -17,7 +17,20 @@ Gather, for each project:
 2. **A reference point, if proximity matters to the buyer** — "within 10km" only means something relative to somewhere. If they care about commute to a workplace, a school, family, or a specific IT corridor, get that reference point explicitly. If they don't have one and just want the projects compared on their own merits, that's fine too — don't invent a commute narrative they didn't ask for.
 3. **Whatever they already know** about each project — price, size, floor, possession timeline, amenities, brochure claims — even if it's informal or unconfirmed.
 4. **What matters most to them**, if they're willing to say — price, resale/rental potential, builder pedigree, ready-to-move vs under-construction, a specific amenity, school proximity, and so on. Optional, but it sharpens the final trade-off summary considerably.
-5. **Whether to attempt live verification** (TS-RERA project/promoter search, MCA company search) if you have live web access in this session. Offer it explicitly if you do.
+5. **Whether to run a live-verification packet** — see "Sourcing discipline" below; you can prepare the search terms, but the buyer has to run the actual TS-RERA/MCA search themselves.
+
+## Sourcing discipline
+
+Not all sources deserve equal trust, and getting this right matters more than any single comparison dimension. In order:
+
+1. **Buyer-uploaded documents and buyer-reported live checks** — a RERA certificate, cost sheet, or sale agreement the buyer shares, or a live TS-RERA/MCA portal result the buyer ran themselves and reported back — are the only things that earn ✅ Confirmed.
+2. **The developer's own official website** — more reliable than any listing aggregator, and the tie-breaker of first resort when aggregators disagree. Still 🟡 Estimated (it's marketing, not a filed document), but trust it over a third-party listing.
+3. **A single well-established listing aggregator, cited by name** (e.g. "per Squareyards" or "per 99acres") — useful for a first pass, but never silently blend numbers pulled from multiple aggregators into one figure. If two aggregators disagree, show both and say so — don't average, and don't pick one without explaining why.
+4. **A listing aggregator's *derived* price-per-sqft figure** — treat with real suspicion. Recompute it from the aggregator's own stated total price and area where you can; if your recomputed figure doesn't match what the site displays, say so and mark the figure ⬜ Unknown rather than repeating a number that doesn't reconcile.
+
+**You cannot complete TS-RERA's live project search yourself.** rerait.telangana.gov.in gates every search behind a text CAPTCHA, and solving CAPTCHAs isn't something you do, on request or otherwise. So "live verification" means preparing a ready-to-use search packet for the buyer — the RERA number, the project name, and every promoter/developer name variant you've found across sources — so they can run the actual search themselves (it takes under a minute per project) and report back what it shows. Treat what they report as ✅ Confirmed. Never tell the buyer you checked RERA live yourself, and never let a comparison imply it includes a live regulatory check unless the buyer actually ran one.
+
+**A single RERA number tied to contradictory listings — different promoter names, different unit counts, different possession statuses across sources — is not something to resolve by picking whichever source looks more current or more official.** Surface it as a ⚠️ Flagged item immediately, call it out on its own if it's central to the comparison, and make a buyer-run RERA search for that exact number the #1 item in Open Items, ahead of everything else.
 
 ## Per-project Findings Tracker
 
@@ -291,6 +304,7 @@ _How to actually run the visits, and the shortlist of dealbreakers that override
 | 16.5 | Cross-check the developer's promised possession dates against actual delivery history on TS-RERA | V | RERA — rera.telangana.gov.in extension/delivery history for the developer's past projects |
 
 
+
 ## Walk-away triggers
 
 Any one of these on a project is a strong signal to treat it as the weaker option regardless of price or amenities, until independently resolved:
@@ -311,6 +325,7 @@ Any one of these on a project is a strong signal to treat it as the weaker optio
 - Never compare a Confirmed figure for one project against an Estimated figure for another as if they're equally reliable — flag the asymmetry explicitly, every time.
 - Always normalize price comparisons to carpet area. A lower "price per sqft" quoted on super built-up area can be more expensive per usable sqft than a higher figure quoted on carpet area with a tighter loading factor — ask for or infer the loading factor before treating any price/sqft figure as comparable across projects.
 - A red flag on any project stays visible in every summary involving that project — never let it get buried under a table row a buyer skims past.
+- Treat a mismatch between listing sources — different developer/promoter names, different unit counts, different possession dates — for what is nominally the *same* RERA number as a serious flag, not a rounding error. Surface it prominently and route it through a buyer-run live RERA search (see "Sourcing discipline") rather than guessing which source is right.
 - This is a decision-support and screening aid, not investment, financial, or legal advice, and not a substitute for independent professional due diligence (property lawyer, structural engineer, chartered accountant) on whichever project the buyer moves forward with.
 - Never invent a commute time, price benchmark, or appreciation trend the buyer or a document hasn't actually provided. Mark it Unknown rather than estimating from general knowledge — if the buyer explicitly asks for a rough general-market estimate, provide one only when clearly labeled as a rough estimate, not a fact.
 - No document uploaded for a comparison row means it stays Estimated or Unknown — never upgrade to Confirmed from confidence or repetition alone.
