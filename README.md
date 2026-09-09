@@ -4,6 +4,8 @@ Claude Skills that turn a Hyderabad/Telangana property due-diligence checklist i
 
 These were built out of a real Hyderabad property search and are shared as-is in case they're useful to other buyers navigating the same market.
 
+> **⚠️ Disclaimer:** This is a weekend hobby project, not a professional or commercial product. It's provided for informational/educational purposes only, with **no warranty of any kind**, and it is **not** legal, financial, engineering, surveying, or investment advice. It does not replace an independent lawyer, structural engineer/surveyor, or chartered accountant, and nothing it outputs is a legal or professional clearance of any property or document. Use entirely at your own risk — see [Disclaimer](#disclaimer) below for the full terms.
+
 ## What's included
 
 | Skill | Covers | Sections | Items |
@@ -32,11 +34,22 @@ These are [Claude Skills](https://docs.claude.com/en/docs/claude-code/skills) �
 
 Once loaded, start a conversation naming the property you're evaluating and begin sharing documents — the skill takes it from there.
 
-## Scope and limitations
+## Disclaimer
 
-- These checklists reflect Telangana/Hyderabad regulatory practice (RERA, GHMC, HMDA, Dharani, TS-bPASS, and related state/central agencies) as of when they were written. Portal names, thresholds, and procedures change — verify current requirements independently.
-- This is a screening aid, not legal, financial, engineering, or investment advice. It does not replace an independent property lawyer, a licensed structural engineer or surveyor, or a chartered accountant, and none of the "Verified" statuses it produces constitute a legal or professional clearance.
-- Several checklist items can only ever be closed by an actual site visit or a licensed professional's inspection — the skill is designed to keep those honestly marked "Open" rather than infer a pass.
+This project was built over a weekend as a personal, hobby exercise — a byproduct of my own Hyderabad property search — and is shared publicly in case it helps other buyers. It is **not**:
+
+- A commercial product or service. No professional relationship of any kind is created by using it, forking it, or contacting me about it.
+- Legal, financial, tax, engineering, surveying, or investment advice.
+- A substitute for independent professional review — a licensed property lawyer, a structural engineer or surveyor, and a chartered accountant, as applicable to your situation.
+- A guarantee, certification, or legal clearance of any property, document, or transaction. A "Verified" status from these skills means a document was found that matches a checklist item's wording — nothing more, and nothing that should be relied on in place of professional due diligence.
+
+Several checklist items (site visits, physical inspections, live negotiations) can only ever be closed by you, in person — the skills are designed to keep those honestly marked "Open" rather than infer a pass from a document alone.
+
+Regulatory references (RERA, GHMC, HMDA, Dharani, TS-bPASS, and other Telangana/Hyderabad government portals, procedures, and thresholds) reflect my own understanding at the time of writing and may be incomplete, outdated, or inaccurate. Regulations, portal names, and procedures change — verify everything independently against current, authoritative government sources before relying on it for any decision.
+
+This repository and its content are provided **"as is," with no warranty of any kind, express or implied** (see the [LICENSE](LICENSE) for the full legal terms). To the fullest extent permitted by law, I accept no liability for any loss, damage, missed defect, or legal or financial consequence arising from the use of this repository. By using it, you agree you're doing so entirely at your own risk and discretion, and that you will seek qualified professional advice before making any property decision.
+
+If you spot an error, a stale regulation, or an outdated portal reference, please open an issue or a pull request rather than relying on the content as-is.
 
 ## Companion checklists
 
