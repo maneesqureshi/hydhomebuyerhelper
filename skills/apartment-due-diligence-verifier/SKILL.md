@@ -40,13 +40,14 @@ Don't re-dump the entire tracker every time. After processing a new document, gi
 
 ## Producing the report
 
-When the buyer asks for a full report, or once the major sections are substantially resolved, produce a structured summary:
+When the buyer asks for a full report, or once the major sections are substantially resolved, produce a structured document with four parts, in this order:
 
 1. **Headline verdict** — a plain-language read on whether this unit looks sound, needs specific follow-up before proceeding, or shows a genuine walk-away signal. Never overstate confidence — this is a screening aid, not a legal clearance.
-2. **Section-by-section walkthrough** — Verified / Flagged / Open counts per section, with every Flagged item called out by name and why.
-3. **Close-out** — the specific documents or actions (independent lawyer's title report, structural engineer's inspection, site visits) still needed to close the remaining Open items.
+2. **Section-by-section walkthrough** — prose, one short paragraph per section of the 16: what's Verified and from which document, what's Flagged and why, what's still Open. This is where the reasoning lives — the table in part 4 is a scannable reference, not a replacement for it.
+3. **Close-out** — the specific documents or actions (independent lawyer's title report, structural engineer's inspection, site visits, live RERA/MCA searches) still needed to close the remaining Open items, in priority order.
+4. **Full Findings Tracker table** — every one of the 114 checklist items as an actual markdown table, not prose, grouped by section in the same order as the checklist below, with columns `#` | `Item` | `Tag` | `Status` | `Evidence`. Lead with a one-line summary count ("38 Verified · 2 Flagged · 74 Open"). Keep each Evidence cell to one line — name the document and the specific fact it supports, or state plainly that nothing has been seen yet. Never collapse a section into a single summary row or skip items to save space; this table is the part the buyer can hand to a lawyer or work through line by line on their own.
 
-Offer to deliver this as a file the buyer can save and share, structured to mirror the checklist's section order.
+Offer to deliver this as a file the buyer can save and share.
 
 ## The checklist
 
@@ -277,7 +278,6 @@ _How to actually run the visits, and the shortlist of dealbreakers that override
 | 16.3 | Visit at evening peak hour to time the lift and observe actual DG changeover during any power cut | V | Self — evening-peak site visit |
 | 16.4 | Talk to RWA members or long-term residents of the developer's earlier completed towers, not just residents referred by sales | V | Self — unaccompanied resident/RWA conversation |
 | 16.5 | Cross-check the developer's promised possession dates against actual delivery history on TS-RERA | V | RERA — rera.telangana.gov.in extension/delivery history for the developer's past projects |
-
 
 ## Walk-away triggers
 

@@ -42,13 +42,14 @@ Don't re-dump the entire tracker every time. After processing a new document, gi
 
 ## Producing the report
 
-When the buyer asks for a full report, or once the major sections are substantially resolved, produce a structured summary:
+When the buyer asks for a full report, or once the major sections are substantially resolved, produce a structured document with four parts, in this order:
 
 1. **Headline verdict** — a plain-language read on whether this plot looks sound, needs specific follow-up before proceeding, or shows a genuine walk-away signal. Never overstate confidence — this is a screening aid, not a legal clearance.
-2. **Section-by-section walkthrough** — Verified / Flagged / Open counts per section, with every Flagged item called out by name and why.
-3. **Close-out** — the specific documents or actions (independent lawyer's title report, licensed surveyor visit, site visits) still needed to close the remaining Open items.
+2. **Section-by-section walkthrough** — prose, one short paragraph per section of the 13: what's Verified and from which document, what's Flagged and why, what's still Open. This is where the reasoning lives — the table in part 4 is a scannable reference, not a replacement for it.
+3. **Close-out** — the specific documents or actions (independent lawyer's title report, licensed surveyor visit, site visits, live Dharani/RERA searches) still needed to close the remaining Open items, in priority order.
+4. **Full Findings Tracker table** — every one of the 72 checklist items as an actual markdown table, not prose, grouped by section in the same order as the checklist below, with columns `#` | `Item` | `Tag` | `Status` | `Evidence`. Lead with a one-line summary count ("22 Verified · 3 Flagged · 47 Open"). Keep each Evidence cell to one line — name the document and the specific fact it supports, or state plainly that nothing has been seen yet. Never collapse a section into a single summary row or skip items to save space; this table is the part the buyer can hand to a lawyer or work through line by line on their own.
 
-Offer to deliver this as a file the buyer can save and share, structured to mirror the checklist's section order.
+Offer to deliver this as a file the buyer can save and share.
 
 ## The checklist
 
@@ -216,7 +217,6 @@ _How to actually run the visits, and the shortlist of dealbreakers that override
 | 13.2 | Walk the surrounding area, not just the marketed layout, to independently assess future development trajectory and adjoining land-use risk | V | Self — site visit beyond the layout boundary |
 | 13.3 | Cross-check the developer's or seller's claims against neighbours or long-term local residents, who often know the parcel's actual dispute history | V | Self — unaccompanied conversation with neighbours/local residents |
 | 13.4 | Use a local, independent revenue-side lawyer for the title search — not the developer's or seller's empanelled lawyer | V | Third-party — independent lawyer's title-search report |
-
 
 ## Walk-away triggers
 

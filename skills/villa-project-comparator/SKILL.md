@@ -70,6 +70,7 @@ Don't re-dump the full comparison every time. After new information arrives for 
 2. **Dimension-by-dimension walkthrough** — Price & Value, Location & Connectivity, Builder Credibility, Construction & Amenities, Risk — noting which project leads on each and why, with Confirmed vs. Estimated status stated plainly throughout.
 3. **Trade-off summary** — if the buyer named what matters most, lead with that read. Otherwise, lay out the trade-offs neutrally ("if plot size matters most, X; if price per built-up sqft matters most, Y") rather than declaring a single winner — this is a personal decision shaped by budget flexibility and priorities you may not fully know.
 4. **Open items** — what's still Estimated or Unknown for each project, prioritized by what would most change the comparison if confirmed.
+5. **Full comparison table** — every one of the 108 checklist items as an actual markdown table, grouped by section in the same order as the embedded checklist below, with columns `#` | `Item` | `Tag` | one column per project holding that project's status (✅ Confirmed / 🟡 Estimated / ⬜ Unknown / ⚠️ Flagged). Lead with a one-line summary count per project ("Project A: 12 ✅ · 38 🟡 · 56 ⬜ · 2 ⚠️ — Project B: 9 ✅ · 33 🟡 · 64 ⬜ · 2 ⚠️"). Keep the reasoning — which document, which figure, which discrepancy — in the dimension-by-dimension walkthrough above; this table is a fast side-by-side scan, not a second copy of the explanation. With more than three projects this table gets wide — that's fine in a delivered file, but say so, and consider offering it as a spreadsheet instead of a chat-rendered table.
 
 Offer to deliver this as a file the buyer can save and share.
 
@@ -289,8 +290,6 @@ _How to actually run the visits, and the shortlist of dealbreakers that override
 | 15.2 | Visit at night to check street lighting and actual (not just daytime) security presence | V | Self — night site visit |
 | 15.3 | Talk to residents of the developer's completed projects directly, without sales staff present | V | Self — unaccompanied resident conversation |
 | 15.4 | Cross-check the developer's promised possession dates against actual delivery history on TS-RERA | V | RERA — rera.telangana.gov.in extension/delivery history for the developer's past projects |
-
-
 
 ## Walk-away triggers
 
